@@ -1,0 +1,16 @@
+
+repositories {
+    jcenter()
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+}
+
+group 'com.pantheon-inc'
+
+apply plugin: 'java'
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.apache.spark/spark-core
+    compile group: 'org.apache.spark', name: 'spark-core_2.11', version: '2.3.0'
+
+}
